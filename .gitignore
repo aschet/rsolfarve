@@ -1,0 +1,10 @@
+/target
+
+# Local editor / agent settings
+.claude/settings.local.json
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+[package]
+name = "olfarve"
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["Thomas Ascher <thomas.ascher@gmx.at>"]
+description = "sRGB color rendering of SRM/EBC beer color values"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/aschet/rsolfarve"
+homepage = "https://github.com/aschet/rsolfarve"
+documentation = "https://docs.rs/olfarve"
+keywords = ["beer", "brewing", "color", "srm", "ebc"]
+categories = ["science", "visualization"]
+exclude = [".github", ".editorconfig", ".gitattributes", ".gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "deny"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
